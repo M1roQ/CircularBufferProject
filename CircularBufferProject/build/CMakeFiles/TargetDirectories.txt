@@ -1,0 +1,7 @@
+/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/CMakeFiles/CircularBuffer.dir
+/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/CMakeFiles/CBapp.dir
+/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/CMakeFiles/edit_cache.dir
+/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/CMakeFiles/rebuild_cache.dir
+/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/Tests/CMakeFiles/testapp.dir
+/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/Tests/CMakeFiles/edit_cache.dir
+/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/Tests/CMakeFiles/rebuild_cache.dir
