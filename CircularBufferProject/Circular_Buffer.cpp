@@ -27,6 +27,10 @@ CircularBuffer::CircularBuffer(const CircularBuffer & cb) {
 }
 
 CircularBuffer::CircularBuffer(int capacity) {
+	if (capacity < 0) {
+    	throw std::invalid_argument("Capacity must be non-negative");
+	}
+
 	buffer = new value_type[capacity];
 	_capacity = capacity;
 	_size = 0;
@@ -72,21 +76,21 @@ const value_type& CircularBuffer::at(int i) const {
 
 value_type& CircularBuffer::front() {
 	if(empty()) {
-		throw std::underflow_error("Buffer is empty");
+		throw std::out_of_range("Buffer is empty");
 	}
 	return buffer[_idx_head];
 }
 
 const value_type& CircularBuffer::front() const {
 	if(empty()) {
-		throw std::underflow_error("Buffer is empty");
+		throw std::out_of_range("Buffer is empty");
 	}
 	return _idx_head;
 }
 
 value_type& CircularBuffer::back() {
 	if (empty()) {
-		throw std::underflow_error("Buffer is empty");
+		throw std::out_of_range("Buffer is empty");
 	}
 	
 	return buffer[(_idx_end - 1 + _capacity) % _capacity];
@@ -94,7 +98,7 @@ value_type& CircularBuffer::back() {
 
 const value_type& CircularBuffer::back() const {
 	if (empty()) {
-		throw std::underflow_error("Buffer is empty");
+		throw std::out_of_range("Buffer is empty");
 	}
 
 
@@ -213,7 +217,7 @@ void CircularBuffer::push_front(const value_type& item) {
 
 void CircularBuffer::pop_back() {
 	if (empty()) {
-		throw std::out_of_range("Buffer is empty, cannot delete elem");
+		throw std::out_of_range("Buffer is empty");
 	}
 	_idx_end = (_idx_end - 1 + _capacity) % _capacity;
 	_size--;
@@ -222,7 +226,7 @@ void CircularBuffer::pop_back() {
 
 void CircularBuffer::pop_front() {
 	if (empty()) {
-		throw std::out_of_range("Buffer is empty, cannot delete elem");
+		throw std::out_of_range("Buffer is empty");
 	}
 
 	_idx_head = (_idx_head + 1) % _capacity;
