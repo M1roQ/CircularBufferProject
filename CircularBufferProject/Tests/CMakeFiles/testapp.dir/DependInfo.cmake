@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/Circular_Buffer.cpp" "CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o" "gcc" "CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o.d"
+  "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/Tests/CBTests.cpp" "Tests/CMakeFiles/testapp.dir/CBTests.cpp.o" "gcc" "Tests/CMakeFiles/testapp.dir/CBTests.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/CMakeFiles/CircularBuffer.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

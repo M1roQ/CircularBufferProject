@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build"
+CMAKE_BINARY_DIR = "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests//CMakeFiles/progress.marks"
-	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" 0
+	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/CMakeFiles" "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/Tests//CMakeFiles/progress.marks"
+	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/clean
+	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/preinstall
+	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/preinstall
+	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Tests/CMakeFiles/testapp.dir/rule:
-	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/CMakeFiles/testapp.dir/rule
+	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/CMakeFiles/testapp.dir/rule
 .PHONY : Tests/CMakeFiles/testapp.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ testapp: Tests/CMakeFiles/testapp.dir/rule
 
 # fast build rule for target.
 testapp/fast:
-	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build" && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/testapp.dir/build.make Tests/CMakeFiles/testapp.dir/build
+	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject" && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/testapp.dir/build.make Tests/CMakeFiles/testapp.dir/build
 .PHONY : testapp/fast
 
 CBTests.o: CBTests.cpp.o
@@ -135,7 +135,7 @@ CBTests.o: CBTests.cpp.o
 
 # target to build an object file
 CBTests.cpp.o:
-	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build" && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/testapp.dir/build.make Tests/CMakeFiles/testapp.dir/CBTests.cpp.o
+	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject" && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/testapp.dir/build.make Tests/CMakeFiles/testapp.dir/CBTests.cpp.o
 .PHONY : CBTests.cpp.o
 
 CBTests.i: CBTests.cpp.i
@@ -143,7 +143,7 @@ CBTests.i: CBTests.cpp.i
 
 # target to preprocess a source file
 CBTests.cpp.i:
-	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build" && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/testapp.dir/build.make Tests/CMakeFiles/testapp.dir/CBTests.cpp.i
+	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject" && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/testapp.dir/build.make Tests/CMakeFiles/testapp.dir/CBTests.cpp.i
 .PHONY : CBTests.cpp.i
 
 CBTests.s: CBTests.cpp.s
@@ -151,7 +151,7 @@ CBTests.s: CBTests.cpp.s
 
 # target to generate assembly for a file
 CBTests.cpp.s:
-	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build" && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/testapp.dir/build.make Tests/CMakeFiles/testapp.dir/CBTests.cpp.s
+	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject" && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/testapp.dir/build.make Tests/CMakeFiles/testapp.dir/CBTests.cpp.s
 .PHONY : CBTests.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

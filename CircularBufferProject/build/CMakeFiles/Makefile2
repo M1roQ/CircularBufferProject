@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject"
+CMAKE_SOURCE_DIR = "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build"
+CMAKE_BINARY_DIR = "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -98,14 +98,14 @@ Tests/clean: Tests/CMakeFiles/testapp.dir/clean
 CMakeFiles/CircularBuffer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CircularBuffer.dir/build.make CMakeFiles/CircularBuffer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CircularBuffer.dir/build.make CMakeFiles/CircularBuffer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" --progress-num=1,2 "Built target CircularBuffer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" --progress-num=1,2 "Built target CircularBuffer"
 .PHONY : CMakeFiles/CircularBuffer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CircularBuffer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CircularBuffer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" 0
 .PHONY : CMakeFiles/CircularBuffer.dir/rule
 
 # Convenience name for target.
@@ -124,14 +124,14 @@ CMakeFiles/CircularBuffer.dir/clean:
 Tests/CMakeFiles/testapp.dir/all: CMakeFiles/CircularBuffer.dir/all
 	$(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/testapp.dir/build.make Tests/CMakeFiles/testapp.dir/depend
 	$(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/testapp.dir/build.make Tests/CMakeFiles/testapp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" --progress-num=3,4 "Built target testapp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" --progress-num=3,4 "Built target testapp"
 .PHONY : Tests/CMakeFiles/testapp.dir/all
 
 # Build rule for subdir invocation for target.
 Tests/CMakeFiles/testapp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/CMakeFiles/testapp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" 0
 .PHONY : Tests/CMakeFiles/testapp.dir/rule
 
 # Convenience name for target.

@@ -1,5 +1,5 @@
-if(EXISTS "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/Tests/testapp[1]_tests.cmake")
-  include("/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/Tests/testapp[1]_tests.cmake")
+if(EXISTS "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp[1]_tests.cmake")
+  include("/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp[1]_tests.cmake")
 else()
   add_test(testapp_NOT_BUILT testapp_NOT_BUILT)
 endif()
