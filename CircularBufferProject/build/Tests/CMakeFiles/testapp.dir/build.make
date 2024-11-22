@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)"
+CMAKE_SOURCE_DIR = "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build"
+CMAKE_BINARY_DIR = "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build"
 
 # Include any dependencies generated for this target.
 include Tests/CMakeFiles/testapp.dir/depend.make
@@ -72,16 +72,16 @@ include Tests/CMakeFiles/testapp.dir/flags.make
 Tests/CMakeFiles/testapp.dir/CBTests.cpp.o: Tests/CMakeFiles/testapp.dir/flags.make
 Tests/CMakeFiles/testapp.dir/CBTests.cpp.o: ../Tests/CBTests.cpp
 Tests/CMakeFiles/testapp.dir/CBTests.cpp.o: Tests/CMakeFiles/testapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/CMakeFiles/testapp.dir/CBTests.cpp.o"
-	cd "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/Tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Tests/CMakeFiles/testapp.dir/CBTests.cpp.o -MF CMakeFiles/testapp.dir/CBTests.cpp.o.d -o CMakeFiles/testapp.dir/CBTests.cpp.o -c "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/Tests/CBTests.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/CMakeFiles/testapp.dir/CBTests.cpp.o"
+	cd "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/Tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Tests/CMakeFiles/testapp.dir/CBTests.cpp.o -MF CMakeFiles/testapp.dir/CBTests.cpp.o.d -o CMakeFiles/testapp.dir/CBTests.cpp.o -c "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/Tests/CBTests.cpp"
 
 Tests/CMakeFiles/testapp.dir/CBTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testapp.dir/CBTests.cpp.i"
-	cd "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/Tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/Tests/CBTests.cpp" > CMakeFiles/testapp.dir/CBTests.cpp.i
+	cd "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/Tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/Tests/CBTests.cpp" > CMakeFiles/testapp.dir/CBTests.cpp.i
 
 Tests/CMakeFiles/testapp.dir/CBTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testapp.dir/CBTests.cpp.s"
-	cd "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/Tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/Tests/CBTests.cpp" -o CMakeFiles/testapp.dir/CBTests.cpp.s
+	cd "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/Tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/Tests/CBTests.cpp" -o CMakeFiles/testapp.dir/CBTests.cpp.s
 
 # Object files for target testapp
 testapp_OBJECTS = \
@@ -94,18 +94,19 @@ Tests/testapp: Tests/CMakeFiles/testapp.dir/CBTests.cpp.o
 Tests/testapp: Tests/CMakeFiles/testapp.dir/build.make
 Tests/testapp: libCircularBuffer.a
 Tests/testapp: Tests/CMakeFiles/testapp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testapp"
-	cd "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/Tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testapp.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testapp"
+	cd "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/Tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testapp.dir/link.txt --verbose=$(VERBOSE)
+	cd "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/Tests" && /usr/bin/cmake -D TEST_TARGET=testapp -D "TEST_EXECUTABLE=/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" -D TEST_EXECUTOR= -D "TEST_WORKING_DIR=/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/Tests" -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=testapp_TESTS -D "CTEST_FILE=/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/Tests/testapp[1]_tests.cmake" -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake-3.22/Modules/GoogleTestAddTests.cmake
 
 # Rule to build all files generated by this target.
 Tests/CMakeFiles/testapp.dir/build: Tests/testapp
 .PHONY : Tests/CMakeFiles/testapp.dir/build
 
 Tests/CMakeFiles/testapp.dir/clean:
-	cd "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/Tests" && $(CMAKE_COMMAND) -P CMakeFiles/testapp.dir/cmake_clean.cmake
+	cd "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/Tests" && $(CMAKE_COMMAND) -P CMakeFiles/testapp.dir/cmake_clean.cmake
 .PHONY : Tests/CMakeFiles/testapp.dir/clean
 
 Tests/CMakeFiles/testapp.dir/depend:
-	cd "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)" "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/Tests" "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build" "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/Tests" "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/Tests/CMakeFiles/testapp.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject" "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/Tests" "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build" "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/Tests" "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/Tests/CMakeFiles/testapp.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : Tests/CMakeFiles/testapp.dir/depend
 

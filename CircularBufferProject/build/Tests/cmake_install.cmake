@@ -1,4 +1,4 @@
-# Install script for directory: /home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/Tests
+# Install script for directory: /home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/Tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

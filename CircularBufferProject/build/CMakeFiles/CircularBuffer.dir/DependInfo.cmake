@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/Circular_Buffer.cpp" "CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o" "gcc" "CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o.d"
+  "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/Circular_Buffer.cpp" "CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o" "gcc" "CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)"
+CMAKE_SOURCE_DIR = "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build"
+CMAKE_BINARY_DIR = "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/CMakeFiles" "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -130,19 +130,6 @@ CircularBuffer/fast:
 .PHONY : CircularBuffer/fast
 
 #=============================================================================
-# Target rules for targets named CBapp
-
-# Build rule for target.
-CBapp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CBapp
-.PHONY : CBapp
-
-# fast build rule for target.
-CBapp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CBapp.dir/build.make CMakeFiles/CBapp.dir/build
-.PHONY : CBapp/fast
-
-#=============================================================================
 # Target rules for targets named testapp
 
 # Build rule for target.
@@ -179,30 +166,6 @@ Circular_Buffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CircularBuffer.dir/build.make CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.s
 .PHONY : Circular_Buffer.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CBapp.dir/build.make CMakeFiles/CBapp.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CBapp.dir/build.make CMakeFiles/CBapp.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CBapp.dir/build.make CMakeFiles/CBapp.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,15 +174,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CBapp"
 	@echo "... CircularBuffer"
 	@echo "... testapp"
 	@echo "... Circular_Buffer.o"
 	@echo "... Circular_Buffer.i"
 	@echo "... Circular_Buffer.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)"
+CMAKE_SOURCE_DIR = "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build"
+CMAKE_BINARY_DIR = "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CircularBuffer.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/CircularBuffer.dir/flags.make
 CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o: CMakeFiles/CircularBuffer.dir/flags.make
 CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o: ../Circular_Buffer.cpp
 CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o: CMakeFiles/CircularBuffer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o -MF CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o.d -o CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o -c "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/Circular_Buffer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o -MF CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o.d -o CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o -c "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/Circular_Buffer.cpp"
 
 CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/Circular_Buffer.cpp" > CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/Circular_Buffer.cpp" > CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.i
 
 CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/Circular_Buffer.cpp" -o CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/Circular_Buffer.cpp" -o CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.s
 
 # Object files for target CircularBuffer
 CircularBuffer_OBJECTS = \
@@ -93,7 +93,7 @@ CircularBuffer_EXTERNAL_OBJECTS =
 libCircularBuffer.a: CMakeFiles/CircularBuffer.dir/Circular_Buffer.cpp.o
 libCircularBuffer.a: CMakeFiles/CircularBuffer.dir/build.make
 libCircularBuffer.a: CMakeFiles/CircularBuffer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCircularBuffer.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCircularBuffer.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/CircularBuffer.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CircularBuffer.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/CircularBuffer.dir/clean:
 .PHONY : CMakeFiles/CircularBuffer.dir/clean
 
 CMakeFiles/CircularBuffer.dir/depend:
-	cd "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)" "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)" "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build" "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build" "/home/b_val4/Рабочий стол/Task1(CircularBuffer)/Task1(CircularBuffer)/build/CMakeFiles/CircularBuffer.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject" "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject" "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build" "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build" "/home/b_val4/Рабочий стол/CircularBufferProjects/CircularBufferProject/build/CMakeFiles/CircularBuffer.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/CircularBuffer.dir/depend
 

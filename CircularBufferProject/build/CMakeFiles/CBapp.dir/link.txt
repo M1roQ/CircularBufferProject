@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/CBapp.dir/main.cpp.o -o CBapp  libCircularBuffer.a 
