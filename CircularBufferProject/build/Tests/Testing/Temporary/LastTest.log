@@ -1,0 +1,471 @@
+Start testing: Nov 23 09:34 +07
+----------------------------------------------------------
+1/18 Testing: CircularBufferTest.DefaultConstructor
+1/18 Test: CircularBufferTest.DefaultConstructor
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.DefaultConstructor" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.DefaultConstructor" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.DefaultConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.DefaultConstructor
+[       OK ] CircularBufferTest.DefaultConstructor (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.DefaultConstructor" end time: Nov 23 09:34 +07
+"CircularBufferTest.DefaultConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/18 Testing: CircularBufferTest.ConstructorWithCapacity
+2/18 Test: CircularBufferTest.ConstructorWithCapacity
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.ConstructorWithCapacity" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.ConstructorWithCapacity" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.ConstructorWithCapacity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.ConstructorWithCapacity
+[       OK ] CircularBufferTest.ConstructorWithCapacity (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.ConstructorWithCapacity" end time: Nov 23 09:34 +07
+"CircularBufferTest.ConstructorWithCapacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/18 Testing: CircularBufferTest.ConstructorWithCapacityAndFill
+3/18 Test: CircularBufferTest.ConstructorWithCapacityAndFill
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.ConstructorWithCapacityAndFill" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.ConstructorWithCapacityAndFill" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.ConstructorWithCapacityAndFill
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.ConstructorWithCapacityAndFill
+[       OK ] CircularBufferTest.ConstructorWithCapacityAndFill (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.ConstructorWithCapacityAndFill" end time: Nov 23 09:34 +07
+"CircularBufferTest.ConstructorWithCapacityAndFill" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/18 Testing: CircularBufferTest.OperatorBracket
+4/18 Test: CircularBufferTest.OperatorBracket
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.OperatorBracket" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.OperatorBracket" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.OperatorBracket
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.OperatorBracket
+[       OK ] CircularBufferTest.OperatorBracket (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.OperatorBracket" end time: Nov 23 09:34 +07
+"CircularBufferTest.OperatorBracket" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/18 Testing: CircularBufferTest.At
+5/18 Test: CircularBufferTest.At
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.At" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.At" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.At
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.At
+[       OK ] CircularBufferTest.At (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.At" end time: Nov 23 09:34 +07
+"CircularBufferTest.At" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/18 Testing: CircularBufferTest.Front
+6/18 Test: CircularBufferTest.Front
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.Front" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.Front" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.Front
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.Front
+[       OK ] CircularBufferTest.Front (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.Front" end time: Nov 23 09:34 +07
+"CircularBufferTest.Front" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/18 Testing: CircularBufferTest.Back
+7/18 Test: CircularBufferTest.Back
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.Back" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.Back" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.Back
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.Back
+[       OK ] CircularBufferTest.Back (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.Back" end time: Nov 23 09:34 +07
+"CircularBufferTest.Back" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/18 Testing: CircularBufferTest.PushBack
+8/18 Test: CircularBufferTest.PushBack
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.PushBack" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.PushBack" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.PushBack
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.PushBack
+[       OK ] CircularBufferTest.PushBack (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.PushBack" end time: Nov 23 09:34 +07
+"CircularBufferTest.PushBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/18 Testing: CircularBufferTest.PushFront
+9/18 Test: CircularBufferTest.PushFront
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.PushFront" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.PushFront" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.PushFront
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.PushFront
+[       OK ] CircularBufferTest.PushFront (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.PushFront" end time: Nov 23 09:34 +07
+"CircularBufferTest.PushFront" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/18 Testing: CircularBufferTest.PopBack
+10/18 Test: CircularBufferTest.PopBack
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.PopBack" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.PopBack" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.PopBack
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.PopBack
+[       OK ] CircularBufferTest.PopBack (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.PopBack" end time: Nov 23 09:34 +07
+"CircularBufferTest.PopBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/18 Testing: CircularBufferTest.PopFront
+11/18 Test: CircularBufferTest.PopFront
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.PopFront" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.PopFront" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.PopFront
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.PopFront
+[       OK ] CircularBufferTest.PopFront (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.PopFront" end time: Nov 23 09:34 +07
+"CircularBufferTest.PopFront" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/18 Testing: CircularBufferTest.Swap
+12/18 Test: CircularBufferTest.Swap
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.Swap" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.Swap" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.Swap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.Swap
+[       OK ] CircularBufferTest.Swap (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.Swap" end time: Nov 23 09:34 +07
+"CircularBufferTest.Swap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/18 Testing: CircularBufferTest.Clear
+13/18 Test: CircularBufferTest.Clear
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.Clear" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.Clear" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.Clear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.Clear
+[       OK ] CircularBufferTest.Clear (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.Clear" end time: Nov 23 09:34 +07
+"CircularBufferTest.Clear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/18 Testing: CircularBufferTest.SetCapacity
+14/18 Test: CircularBufferTest.SetCapacity
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.SetCapacity" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.SetCapacity" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.SetCapacity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.SetCapacity
+[       OK ] CircularBufferTest.SetCapacity (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.SetCapacity" end time: Nov 23 09:34 +07
+"CircularBufferTest.SetCapacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/18 Testing: CircularBufferTest.Resize
+15/18 Test: CircularBufferTest.Resize
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest.Resize" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest.Resize" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest.Resize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest
+[ RUN      ] CircularBufferTest.Resize
+[       OK ] CircularBufferTest.Resize (0 ms)
+[----------] 1 test from CircularBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest.Resize" end time: Nov 23 09:34 +07
+"CircularBufferTest.Resize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/18 Testing: CircularBufferTest_Failures.IncorrectAccess
+16/18 Test: CircularBufferTest_Failures.IncorrectAccess
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest_Failures.IncorrectAccess" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest_Failures.IncorrectAccess" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest_Failures.IncorrectAccess
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest_Failures
+[ RUN      ] CircularBufferTest_Failures.IncorrectAccess
+[       OK ] CircularBufferTest_Failures.IncorrectAccess (0 ms)
+[----------] 1 test from CircularBufferTest_Failures (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest_Failures.IncorrectAccess" end time: Nov 23 09:34 +07
+"CircularBufferTest_Failures.IncorrectAccess" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/18 Testing: CircularBufferTest_Invalid.NegativeCapacity
+17/18 Test: CircularBufferTest_Invalid.NegativeCapacity
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest_Invalid.NegativeCapacity" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest_Invalid.NegativeCapacity" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest_Invalid.NegativeCapacity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest_Invalid
+[ RUN      ] CircularBufferTest_Invalid.NegativeCapacity
+[       OK ] CircularBufferTest_Invalid.NegativeCapacity (0 ms)
+[----------] 1 test from CircularBufferTest_Invalid (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest_Invalid.NegativeCapacity" end time: Nov 23 09:34 +07
+"CircularBufferTest_Invalid.NegativeCapacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/18 Testing: CircularBufferTest_Invalid.OutOfRangeAccess
+18/18 Test: CircularBufferTest_Invalid.OutOfRangeAccess
+Command: "/home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests/testapp" "--gtest_filter=CircularBufferTest_Invalid.OutOfRangeAccess" "--gtest_also_run_disabled_tests"
+Directory: /home/b_val4/Рабочий стол/OOP/CircularBufferProjects/CircularBufferProject/build/Tests
+"CircularBufferTest_Invalid.OutOfRangeAccess" start time: Nov 23 09:34 +07
+Output:
+----------------------------------------------------------
+Note: Google Test filter = CircularBufferTest_Invalid.OutOfRangeAccess
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CircularBufferTest_Invalid
+[ RUN      ] CircularBufferTest_Invalid.OutOfRangeAccess
+[       OK ] CircularBufferTest_Invalid.OutOfRangeAccess (0 ms)
+[----------] 1 test from CircularBufferTest_Invalid (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CircularBufferTest_Invalid.OutOfRangeAccess" end time: Nov 23 09:34 +07
+"CircularBufferTest_Invalid.OutOfRangeAccess" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 23 09:34 +07

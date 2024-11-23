@@ -1,0 +1,19 @@
+CircularBufferTest.DefaultConstructor 1 0.00656304
+CircularBufferTest.ConstructorWithCapacity 1 0.00380764
+CircularBufferTest.ConstructorWithCapacityAndFill 1 0.00385999
+CircularBufferTest.OperatorBracket 1 0.00347032
+CircularBufferTest.At 1 0.00364062
+CircularBufferTest.Front 1 0.00347932
+CircularBufferTest.Back 1 0.00370713
+CircularBufferTest.PushBack 1 0.00321152
+CircularBufferTest.PushFront 1 0.00314804
+CircularBufferTest.PopBack 1 0.00322615
+CircularBufferTest.PopFront 1 0.00364375
+CircularBufferTest.Swap 1 0.00304455
+CircularBufferTest.Clear 1 0.00241204
+CircularBufferTest.SetCapacity 1 0.00287328
+CircularBufferTest.Resize 1 0.0024249
+CircularBufferTest_Failures.IncorrectAccess 1 0.0028733
+CircularBufferTest_Invalid.NegativeCapacity 1 0.0026321
+CircularBufferTest_Invalid.OutOfRangeAccess 1 0.00246492
+---
